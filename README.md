@@ -5,6 +5,14 @@ $ git checkout <feature_branch> : Switch to another branch <br>
 
 $ git branch -a : View all available branches <br>
 
+### Delete github branch 
+
+Delete branch locally <br>
+$ git branch -d localBranchName
+
+Delete branch remotely <br>
+$ git push origin --delete remoteBranchName
+
 ### Rename github branch
 1. Rename your local branch.
 If you are on the branch you want to rename:
