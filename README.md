@@ -38,3 +38,11 @@ $ git diff
 See changes in specific files <br>
 $ git diff <-file name->
 
+See which untracked files will be deleted <br>
+$ git clean -n 
+$ git clean -n <-specific file name->
+
+Delete all untracked file
+$ git clean -f
+$ git clean -f <-specific file name->
+
