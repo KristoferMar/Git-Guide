@@ -29,3 +29,12 @@ $ git push origin :old-name new-name
 Switch to the branch and then:
 
 $ git push origin -u new-name
+
+### File changes 
+
+See changes in all files <br>
+$ git diff
+
+See changes in specific files <br>
+$ git diff <-file name->
+
