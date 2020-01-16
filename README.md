@@ -46,9 +46,9 @@ Delete all untracked file
 $ git clean -f <br>
 $ git clean -f <-specific file name->
 
-Ignore modified files 
+Ignore modified files <br>
 $ git update-index --assume-unchanged <-Specific file->
 
-Ignore ALL modified files
+Ignore ALL modified files <br>
 $ git update-index --assume-unchanged dir-im-removing/
 
