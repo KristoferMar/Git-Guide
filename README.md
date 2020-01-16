@@ -1,4 +1,6 @@
 # Git-Guide
+
+## Branches
 Below we find all usefull git commands:
 
 $ git checkout <feature_branch> : Switch to another branch <br>
@@ -30,7 +32,7 @@ Switch to the branch and then:
 
 $ git push origin -u new-name
 
-### File changes 
+## File changes 
 
 See changes in all files <br>
 $ git diff
@@ -51,4 +53,17 @@ $ git update-index --assume-unchanged <-Specific file->
 
 Ignore ALL modified files <br>
 $ git update-index --assume-unchanged dir-im-removing/
+
+### Revert back to last commit
+
+First reset the changes <br>
+$ git reset HEAD --hard
+
+then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
+
+$ git clean -fd
+
+
+
+
 
