@@ -39,10 +39,16 @@ See changes in specific files <br>
 $ git diff <-file name->
 
 See which untracked files will be deleted <br>
-$ git clean -n 
+$ git clean -n <br>
 $ git clean -n <-specific file name->
 
 Delete all untracked file
-$ git clean -f
+$ git clean -f <br>
 $ git clean -f <-specific file name->
+
+Ignore modified files 
+$ git update-index --assume-unchanged <-Specific file->
+
+Ignore ALL modified files
+$ git update-index --assume-unchanged dir-im-removing/
 
