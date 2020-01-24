@@ -64,6 +64,14 @@ then clean out everything untracked. If you want to keep files that are not trac
 
 $ git clean -fd
 
+#### Temporarily switch to a different commit 
+
+<b>Check your commit history</b> with the following command <br>
+<i> git log --all --graph --decorate --oneline </i>
+
+Temporarly Checkout into an old commit 
+
+<i> git checkout <-commit ID-> </i>
 
 
 
