@@ -70,7 +70,6 @@ $ git clean -fd
 <i> git log --all --graph --decorate --oneline </i>
 
 Temporarly Checkout into an old commit 
-
 <i> git checkout <-commit ID-> </i>
 
 
