@@ -55,6 +55,9 @@ $ git update-index --assume-unchanged <-Specific file->
 Ignore ALL modified files <br>
 $ git update-index --assume-unchanged dir-im-removing/
 
+Revert back to a clean working directory. This command saves local modifications away and reversts the working direcrory to match the HEAD commit. <br>
+<b><i>git stash</i></b>
+
 ### Revert back to last commit
 
 First reset the changes <br>
