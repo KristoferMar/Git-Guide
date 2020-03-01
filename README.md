@@ -72,7 +72,7 @@ $ git clean -fd
 <b>Check your commit history</b> with the following command <br>
 <i> git log --all --graph --decorate --oneline </i>
 
-Temporarly Checkout into an old commit 
+Temporarly Checkout into an old commit  
 <i> git checkout <-commit ID-> </i>
 
 
