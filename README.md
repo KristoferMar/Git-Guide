@@ -57,14 +57,15 @@ $ git update-index --assume-unchanged dir-im-removing/
 Revert back to a clean working directory. This command saves local modifications away and reversts the working direcrory to match the HEAD commit. <br>
 <b><i>git stash</i></b>
 
-### Revert back to last commit
-
+<h3 class="subsubTitleSection">Revert back to last commit</h3>
 First reset the changes <br>
-$ git reset HEAD --hard
+<b> <i>git reset HEAD --hard</i></b><br>
 
-then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
+Then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
 
-$ git clean -fd
+$ git clean -fd <br>
+
+<br>
 
 #### Temporarily switch to a different commit 
 
