@@ -1,12 +1,17 @@
 <h3 class="subsubTitleSection">Git-Guide</h3>
 
-<h3 class="subsubTitleSection">Branches</h3>
-Below we find all usefull git commands:
+<h2 class="subsubTitleSection">Branches</h2>
+Below we find all usefull git commands: <br><br>
+Switch to another branch <br>
+<b><i>git checkout "feature_branch"</i></b> <br>
 
-$ git checkout <feature_branch> : Switch to another branch <br>
-$ git checkout -b <new_branch_name> : Creates and Swiches to new branch <br>
+Creates and Swiches to new branch <br>
+<b><i>git checkout -b 'new_branch_name'</i></b> <br>
 
-$ git branch -a : View all available branches <br>
+View all available branches <br>
+<b><i>git branch -a</i></b><br>
+
+<br>
 
 <h2 class="subsubTitleSection">Delete github branch</h2>
 Delete branch locally <br>
