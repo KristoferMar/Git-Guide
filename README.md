@@ -10,13 +10,15 @@ $ git branch -a : View all available branches <br>
 
 <h2 class="subsubTitleSection">Delete github branch</h2>
 Delete branch locally <br>
-$ git branch -d localBranchName
+<b><i>git branch -d localBranchName</i></b><br>
 
 Delete branch remotely <br>
-$ git push origin --delete remoteBranchName
+<b><i>git push origin --delete remoteBranchName</i></b><br>
+
+<br>
 
 <h3 class="subsubTitleSection">Rename github branch</h3>
-1. Rename your local branch.
+1. Rename your local branch. <br>
 If you are on the branch you want to rename: <br>
 <i>git branch -m new-name </i> <br>
 
