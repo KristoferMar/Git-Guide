@@ -8,7 +8,7 @@ $ git checkout -b <new_branch_name> : Creates and Swiches to new branch <br>
 
 $ git branch -a : View all available branches <br>
 
-<h3 class="subsubTitleSection">Delete github branch</h3>
+<h2 class="subsubTitleSection">Delete github branch</h2>
 Delete branch locally <br>
 $ git branch -d localBranchName
 
