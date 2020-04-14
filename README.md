@@ -59,16 +59,14 @@ Revert back to a clean working directory. This command saves local modifications
 
 <h3 class="subsubTitleSection">Revert back to last commit</h3>
 First reset the changes <br>
-<b> <i>git reset HEAD --hard</i></b><br>
+<b><i>git reset HEAD --hard</i></b><br>
 
 Then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
-
-$ git clean -fd <br>
+<b><i>git clean -fd</i></b><br>
 
 <br>
 
-#### Temporarily switch to a different commit 
-
+<h2 class="subsubTitleSection">Temporarily switch to a different commit </h2>
 <b>Check your commit history</b> with the following command <br>
 <i> git log --all --graph --decorate --oneline </i>
 
