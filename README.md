@@ -21,46 +21,48 @@ Delete branch remotely <br>
 <b><i>git push origin --delete remoteBranchName</i></b><br>
 
 <br>
-
 <h3 class="subsubTitleSection">Rename github branch</h3>
 1. Rename your local branch. <br>
 If you are on the branch you want to rename: <br>
-<i>git branch -m new-name </i> <br>
+<b><i>git branch -m new-name </i></b><br>
 
 If you are on a different branch: <br>
-<i>git branch -m old-name new-name</i>
+<b><i>git branch -m old-name new-name</i></b><br>
 
 2. Delete the old-name remote branch and push the new-name local branch. <br>
-$ git push origin :old-name new-name
+<b><i>git push origin :old-name new-name</i></b><br>
 
 3. Reset the upstream branch for the new-name local branch. <br>
 
 Switch to the branch and then:<br>
-<i>git push origin -u new-name </i>
+<b><i>git push origin -u new-name </i></b><br>
 
+<br>
 <h3 class="subsubTitleSection">File changes </h3>
 See changes in all files <br>
-$ git diff
+$ git diff<br>
 
 See changes in specific files <br>
-$ git diff <-file name->
+$ git diff <-file name-><br>
 
 See which untracked files will be deleted <br>
 $ git clean -n <br>
-$ git clean -n <-specific file name->
+$ git clean -n <-specific file name-><br>
 
-Delete all untracked file
+Delete all untracked file<br>
 $ git clean -f <br>
-$ git clean -f <-specific file name->
+$ git clean -f <-specific file name-><br>
 
 Ignore modified files <br>
-$ git update-index --assume-unchanged <-Specific file->
+$ git update-index --assume-unchanged <-Specific file-><br>
 
 Ignore ALL modified files <br>
-$ git update-index --assume-unchanged dir-im-removing/
+$ git update-index --assume-unchanged dir-im-removing/<br>
 
 Revert back to a clean working directory. This command saves local modifications away and reversts the working direcrory to match the HEAD commit. <br>
-<b><i>git stash</i></b>
+<b><i>git stash</i></b><br>
+
+<br>
 
 <h3 class="subsubTitleSection">Revert back to last commit</h3>
 First reset the changes <br>
