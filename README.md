@@ -1,6 +1,6 @@
-# Git-Guide
+<h3 class="subsubTitleSection">Git-Guide</h3>
 
-## Branches
+<h3 class="subsubTitleSection">Branches</h3>
 Below we find all usefull git commands:
 
 $ git checkout <feature_branch> : Switch to another branch <br>
@@ -8,15 +8,14 @@ $ git checkout -b <new_branch_name> : Creates and Swiches to new branch <br>
 
 $ git branch -a : View all available branches <br>
 
-### Delete github branch 
-
+<h3 class="subsubTitleSection">Delete github branch</h3>
 Delete branch locally <br>
 $ git branch -d localBranchName
 
 Delete branch remotely <br>
 $ git push origin --delete remoteBranchName
 
-### Rename github branch
+<h3 class="subsubTitleSection">Rename github branch</h3>
 1. Rename your local branch.
 If you are on the branch you want to rename: <br>
 <i>git branch -m new-name </i> <br>
@@ -32,8 +31,7 @@ $ git push origin :old-name new-name
 Switch to the branch and then:<br>
 <i>git push origin -u new-name </i>
 
-## File changes 
-
+<h3 class="subsubTitleSection">File changes </h3>
 See changes in all files <br>
 $ git diff
 
@@ -67,8 +65,8 @@ Then clean out everything untracked. If you want to keep files that are not trac
 <br>
 
 <h2 class="subsubTitleSection">Temporarily switch to a different commit </h2>
-<b>Check your commit history</b> with the following command <br>
-<i> git log --all --graph --decorate --oneline </i>
+Check your commit history with the following command <br>
+<b><i> git log --all --graph --decorate --oneline </i></b> <br>
 
 Temporarly Checkout into an old commit  
 <i> git checkout <-commit ID-> </i>
