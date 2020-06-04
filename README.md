@@ -11,8 +11,11 @@ Creates and Swiches to new branch <br>
 View all available branches <br>
 <b><i>git branch -a</i></b><br>
 
-<br>
+<h3>Merge Branches</h3>
+When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
+<b><i>git merge 'feature-branch'</i></b><br>
 
+<br>
 <h2 class="subsubTitleSection">Delete github branch</h2>
 Delete branch locally <br>
 <b><i>git branch -d localBranchName</i></b><br>
