@@ -66,7 +66,15 @@ Revert back to a clean working directory. This command saves local modifications
 <b><i>git stash</i></b><br>
 
 <br>
+<h3 class="subsubTitleSection">Remove files </h3>
+Remove file from git <br>
+<b><i>git rm file1.txt</i></b><br>
 
+Remove file from git wituout removing file from git project <br>
+<b><i>git rm --cached file1.txt</i></b><br>
+
+
+<br>
 <h3 class="subsubTitleSection">Revert back to last commit</h3>
 First reset the changes <br>
 <b><i>git reset HEAD --hard</i></b><br>
@@ -81,7 +89,7 @@ Check your commit history with the following command <br>
 <b><i> git log --all --graph --decorate --oneline </i></b> <br>
 
 Temporarly Checkout into an old commit  
-<i> git checkout <-commit ID-> </i>
+<i> git checkout 'commit ID' </i>
 
 
 
