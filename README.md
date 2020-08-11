@@ -19,7 +19,7 @@ When executed you will take all changes within the target branch and put into yo
 <h2 class="subsubTitleSection">Delete github branch</h2>
 Delete branch locally <br>
 <b><i>git branch -d localBranchName</i></b><br>
-
+<br>
 Delete branch remotely <br>
 <b><i>git push origin --delete remoteBranchName</i></b><br>
 
