@@ -7,7 +7,7 @@ Switch to another branch <br>
 <br>
 Creates and Swiches to new branch <br>
 <b><i>git checkout -b 'new_branch_name'</i></b> <br>
-
+<br>
 View all available branches <br>
 <b><i>git branch -a</i></b><br>
 
