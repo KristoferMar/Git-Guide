@@ -1,10 +1,10 @@
 <h3 class="subsubTitleSection">Git-Guide</h3>
 
 <h2 class="subsubTitleSection">Branches</h2>
-Below we find all usefull git commands: <br> <br>
+Below we find all usefull git commands: <br><br>
 Switch to another branch <br>
 <b><i>git checkout "feature_branch"</i></b> <br>
-
+<br>
 Creates and Swiches to new branch <br>
 <b><i>git checkout -b 'new_branch_name'</i></b> <br>
 
