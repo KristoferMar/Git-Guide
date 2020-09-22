@@ -73,7 +73,6 @@ Remove file from git <br>
 Remove file from git wituout removing file from git project <br>
 <i>git rm --cached file1.txt</i><br><br>
 
-
 <br>
 <h2>Revert back to last commit</h2>
 First reset the changes <br>
