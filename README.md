@@ -54,16 +54,16 @@ See which untracked files will be deleted <br>
 
 Delete all untracked file<br>
 <i>git clean -f</i> <br>
-$ git clean -f <-specific file name-><br>
+<i>git clean -f 'filename'</i><br>
 
 Ignore modified files <br>
-$ git update-index --assume-unchanged <-Specific file-><br>
+<i>git update-index --assume-unchanged 'filename'</i><br>
 
 Ignore ALL modified files <br>
-$ git update-index --assume-unchanged dir-im-removing/<br>
+<i>git update-index --assume-unchanged dir-im-removing/</i><br>
 
 Revert back to a clean working directory. This command saves local modifications away and reversts the working direcrory to match the HEAD commit. <br>
-<b><i>git stash</i></b><br>
+<i>git stash</i><br>
 
 <br>
 <h3 class="subsubTitleSection">Remove files </h3>
@@ -75,18 +75,17 @@ Remove file from git wituout removing file from git project <br>
 
 
 <br>
-<h3 class="subsubTitleSection">Revert back to last commit</h3>
+<h2>Revert back to last commit</h2>
 First reset the changes <br>
-<b><i>git reset HEAD --hard</i></b><br>
+<i>git reset HEAD --hard</i><br>
 
 Then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
-<b><i>git clean -fd</i></b><br>
+<i>git clean -fd</i><br>
 
 <br>
-
-<h2 class="subsubTitleSection">Temporarily switch to a different commit </h2>
+<h2>Temporarily switch to a different commit </h2>
 Check your commit history with the following command <br>
-<b><i> git log --all --graph --decorate --oneline </i></b> <br>
+<i> git log --all --graph --decorate --oneline </i><br>
 
 Temporarly Checkout into an old commit  
 <i> git checkout 'commit ID' </i>
