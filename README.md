@@ -88,7 +88,7 @@ Check your commit history with the following command <br>
 <i> git log --all --graph --decorate --oneline </i><br>
 
 Temporarly Checkout into an old commit  
-<i> git checkout 'commit ID' </i>
+<i> git checkout 'commit ID'</i>
 
 
 
