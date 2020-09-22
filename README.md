@@ -1,57 +1,59 @@
 <h2>Branches</h2>
 Below we find all usefull git commands: <br><br>
 Switch to another branch <br>
-<b><i>git checkout "feature_branch"</i></b> <br>
+<i>git checkout "feature_branch"</i> <br>
 <br>
 Creates and Swiches to new branch <br>
-<b><i>git checkout -b 'new_branch_name'</i></b> <br>
+<i>git checkout -b 'new_branch_name'</i> <br>
 <br>
 View all available branches <br>
-<b><i>git branch -a</i></b><br>
-
-<h3>Merge Branches</h3>
-When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
-<b><i>git merge 'feature-branch'</i></b><br>
+<i>git branch -a</i><br>
 
 <br>
-<h2 class="subsubTitleSection">Delete github branch</h2>
+<h2>Merge Branches</h2>
+When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
+<i>git merge 'feature-branch'</i><br>
+
+<br>
+<h2>Delete github branch</h2>
 Delete branch locally <br>
-<b><i>git branch -d localBranchName</i></b><br>
+<i>git branch -d localBranchName</i><br>
+
 <br>
 Delete branch remotely <br>
-<b><i>git push origin --delete remoteBranchName</i></b><br>
+<i>git push origin --delete remoteBranchName</i><br>
 
 <br>
-<h3 class="subsubTitleSection">Rename github branch</h3>
+<h2>Rename github branch</h2>
 1. Rename your local branch. <br>
 If you are on the branch you want to rename: <br>
-<b><i>git branch -m new-name </i></b><br>
+<i>git branch -m new-name </i><br>
 
 If you are on a different branch: <br>
-<b><i>git branch -m old-name new-name</i></b><br>
+<i>git branch -m old-name new-name</i><br>
 
 2. Delete the old-name remote branch and push the new-name local branch. <br>
-<b><i>git push origin :old-name new-name</i></b><br>
+<i>git push origin :old-name new-name</i><br>
 
 3. Reset the upstream branch for the new-name local branch. <br>
 
 Switch to the branch and then:<br>
-<b><i>git push origin -u new-name </i></b><br>
+<i>git push origin -u new-name </i><br>
 
 <br>
-<h3 class="subsubTitleSection">File changes </h3>
+<h2>File changes </h2>
 See changes in all files <br>
-$ git diff<br>
+<i>git diff</i><br>
 
 See changes in specific files <br>
-$ git diff <-file name-><br>
+<i>git diff 'file name'</i><br>
 
 See which untracked files will be deleted <br>
-$ git clean -n <br>
-$ git clean -n <-specific file name-><br>
+<i>git clean -n</i> <br>
+<i>git clean -n 'filename'</i><br>
 
 Delete all untracked file<br>
-$ git clean -f <br>
+<i>git clean -f</i> <br>
 $ git clean -f <-specific file name-><br>
 
 Ignore modified files <br>
