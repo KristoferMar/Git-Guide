@@ -66,12 +66,12 @@ Revert back to a clean working directory. This command saves local modifications
 <i>git stash</i><br>
 
 <br>
-<h3 class="subsubTitleSection">Remove files </h3>
+<h2>Remove files </h2>
 Remove file from git <br>
-<b><i>git rm file1.txt</i></b><br>
+<i>git rm file1.txt</i><br><br>
 
 Remove file from git wituout removing file from git project <br>
-<b><i>git rm --cached file1.txt</i></b><br>
+<i>git rm --cached file1.txt</i><br><br>
 
 
 <br>
@@ -85,7 +85,6 @@ Then clean out everything untracked. If you want to keep files that are not trac
 <br>
 <h2>Temporarily switch to a different commit </h2>
 Check your commit history with the following command <br>
-
 <i> git log --all --graph --decorate --oneline </i><br>
 
 Temporarly Checkout into an old commit <br>
