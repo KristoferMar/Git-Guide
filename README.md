@@ -1,6 +1,4 @@
-<h3 class="subsubTitleSection">Git-Guide</h3>
-
-<h2 class="subsubTitleSection">Branches</h2>
+<h2>Branches</h2>
 Below we find all usefull git commands: <br><br>
 Switch to another branch <br>
 <b><i>git checkout "feature_branch"</i></b> <br>
