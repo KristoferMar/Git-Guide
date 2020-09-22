@@ -83,7 +83,6 @@ Then clean out everything untracked. If you want to keep files that are not trac
 <i>git clean -fd</i><br>
 
 <br>
-<pre>
 <h2>Temporarily switch to a different commit </h2>
 Check your commit history with the following command <br>
 
@@ -92,8 +91,6 @@ Check your commit history with the following command <br>
 Temporarly Checkout into an old commit <br>
 
 <i> git checkout 'commit ID'</i>
-</pre>
-
 
 
 
