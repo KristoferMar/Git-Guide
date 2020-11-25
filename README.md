@@ -100,6 +100,6 @@ Temporarly Checkout into an old commit <br>
 <h3>1. Reset HEAD by going one step back</h3>
 <p><b>VERY Dangerous if you are working in a team.</b></p>
 <p>This command will revert EVERYTHING back to from HEAD (current commit) to the second latest commit in the history.</p><br>
-<p>git reset --soft HEAD^</p><br>
+<p>git reset --soft HEAD^</p>
 <p>git push --force</p>
 
