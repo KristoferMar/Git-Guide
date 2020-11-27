@@ -106,3 +106,10 @@ Temporarly Checkout into an old commit <br>
 <p>git reset --soft HEAD^</p>
 <p>git push --force</p>
 
+<h2>
+<h2>Origin commits</h2>
+<h4>Check current git origin</h4>
+If on a network<br>
+<i>git remote show origin</i> <br>
+If not on a network<br>
+<i>git config --get remote.origin.url</i> <br>
