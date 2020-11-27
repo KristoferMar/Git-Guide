@@ -93,7 +93,6 @@ Check your commit history with the following command <br>
 <i> git log --all --graph --decorate --oneline </i><br>
 
 Temporarly Checkout into an old commit <br>
-
 <i> git checkout 'commit ID'</i>
 
 
