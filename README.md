@@ -93,11 +93,11 @@ Temporarly Checkout into an old commit <br>
 <i> git checkout 'commit ID'</i>
 
 
-
+<br>
 <h2>Revert upsie commits</h2>
 <p>If you accedentially commit something to a repository which was not intented such as an API key, properties file, configuration file ect you can do some of the following - Be aware that some of these commands are very sensative</p><br>
 
-<h3>1. Reset HEAD by going one step back</h3>
+<h4>1. Reset HEAD by going one step back</h4>
 <p><b>VERY Dangerous if you are working in a team.</b></p>
 <p>This command will revert EVERYTHING back to from HEAD (current commit) to the second latest commit in the history.</p><br>
 <p>git reset --soft HEAD^</p>
