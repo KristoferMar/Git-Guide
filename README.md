@@ -93,7 +93,7 @@ Check your commit history with the following command <br>
 <i> git log --all --graph --decorate --oneline </i><br>
 
 Temporarly Checkout into an old commit <br>
-<i> git checkout 'commit ID'</i>
+<i> git checkout 'commit ID'</i> <br>
 
 
 <br>
@@ -106,8 +106,8 @@ Temporarly Checkout into an old commit <br>
 <p>git reset --soft HEAD^</p>
 <p>git push --force</p>
 
-<h2>
-<h2>Origin commits</h2>
+<br>
+<h2>Origin info</h2>
 <h4>Check current git origin</h4>
 If on a network<br>
 <i>git remote show origin</i> <br>
