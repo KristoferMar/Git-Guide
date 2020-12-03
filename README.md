@@ -113,3 +113,9 @@ If on a network<br>
 <i>git remote show origin</i> <br>
 If not on a network<br>
 <i>git config --get remote.origin.url</i> <br>
+
+
+<br>
+<h2>Tips and Tricks</h2>
+<h4>Open repository in browser</h4>
+<i>git remote -v | awk '/origin.*push/ {print $2}' | xargs open</i>
