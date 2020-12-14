@@ -10,9 +10,9 @@ View all available branches <br>
 <i>git branch -a</i><br>
 
 <h3>Delete branch</h3>
-<p>Delete branch locally</p>
+Delete branch locally
 <i>git branch -d localBranchName</i> <br><br>
-<p>Delete branch remotely</p>
+Delete branch remotely
 <i>git push --delete remoteBranchName</i><br>
 
 <br>
