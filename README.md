@@ -9,6 +9,12 @@ Creates and Swiches to new branch <br>
 View all available branches <br>
 <i>git branch -a</i><br>
 
+<h3>Delete branch</h3>
+<p>Delete branch locally</p><br>
+<i>git branch -d localBranchName</i> <br><br>
+<p>Delete branch remotely</p><br>
+<i>git push --delete remoteBranchName</i><br>
+
 <br>
 <h2>Merge Branches</h2>
 When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
