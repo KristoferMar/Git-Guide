@@ -1,6 +1,6 @@
 <h2>Branches</h2>
 Below we find all usefull git commands: <br><br>
-Switch to another branch <br>
+<h3>Switch to another branch</h3> <br>
 <i>git checkout "feature_branch"</i> <br>
 <br>
 Creates and Swiches to new branch <br>
