@@ -1,6 +1,10 @@
 <h2>Branches</h2>
+<<<<<<< HEAD
 Below we find all usefull git commands: <br><br>
 <h3>Switch to another branch</h3> <br>
+=======
+Switch to another branch <br>
+>>>>>>> c1a205192a08c16adf579c932e893be4f6e65ea8
 <i>git checkout "feature_branch"</i> <br>
 <br>
 Creates and Swiches to new branch <br>
@@ -8,12 +12,6 @@ Creates and Swiches to new branch <br>
 <br>
 View all available branches <br>
 <i>git branch -a</i><br>
-
-<h3>Delete branch</h3>
-Delete branch locally<br>
-<i>git branch -d localBranchName</i> <br><br>
-Delete branch remotely<br>
-<i>git push --delete remoteBranchName</i><br>
 
 <br>
 <h2>Merge Branches</h2>
