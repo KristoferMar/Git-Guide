@@ -1,5 +1,4 @@
 <h2>Branches</h2>
-Below we find all usefull git commands: <br><br>
 Switch to another branch <br>
 <i>git checkout "feature_branch"</i> <br>
 <br>
