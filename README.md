@@ -122,7 +122,7 @@ Develop faster by creating a makefile in the root of repo <br>
 You can add the makefile to .gitignore for personal usage<br>
 <br>
 Guide<br>
-https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48
+<a href="https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48" target="_blank">https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48</a><br>
 
 <br>
 <h4>Open repository in browser from terminal</h4>
