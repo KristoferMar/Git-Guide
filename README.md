@@ -119,7 +119,7 @@ If not on a network<br>
 
 <h4>Add, commit & push all in one</h4>
 Develop faster by creating a makefile in the root of repo <br>
-You can add the makefile to .gitignore to only make use of it yourself<br>
+You can add the makefile to .gitignore for personal usage<br>
 <br>
 Guide<br>
 https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48
