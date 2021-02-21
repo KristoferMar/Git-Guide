@@ -116,5 +116,14 @@ If not on a network<br>
 
 <br>
 <h2>Tips and Tricks</h2>
-<h4>Open repository in browser</h4>
+
+<h4>Add, commit & push all in one</h4>
+Develop faster by creating a makefile in the root of repo <br>
+You can add the makefile to .gitignore to only make use of it yourself<br>
+<br>
+Guide<br>
+https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48
+
+<br>
+<h4>Open repository in browser from terminal</h4>
 <i>git remote -v | awk '/origin.*push/ {print $2}' | xargs open</i>
