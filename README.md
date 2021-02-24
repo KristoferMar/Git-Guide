@@ -87,6 +87,10 @@ Then clean out everything untracked. If you want to keep files that are not trac
 <h4>See commit history</h4>
 <i>git log</i>
 
+<h4>Revert a local commit</h4>
+The last commit will be removed from git history. with 'HEAD~2' it will revert back 2 commits earler. <br>
+<i>git reset --soft HEAD~1</i>
+
 <h4>Temporarily switch to a different commit </h4>
 Check your commit history with the following command<br>
 <i> git log --all --graph --decorate --oneline </i><br>
