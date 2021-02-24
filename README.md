@@ -43,26 +43,29 @@ Switch to the branch and then:<br>
 <h2>File changes </h2>
 See changes in all files <br>
 <i>git diff</i><br>
-
+<br>
 See changes in specific files <br>
 <i>git diff 'file name'</i><br>
-
+<br>
 See which untracked files will be deleted <br>
 <i>git clean -n</i> <br>
 <i>git clean -n 'filename'</i><br>
-
+<br>
 Delete all untracked file<br>
 <i>git clean -f</i> <br>
 <i>git clean -f 'filename'</i><br>
-
+<br>
 Ignore modified files <br>
 <i>git update-index --assume-unchanged 'filename'</i><br>
-
+<br>
 Ignore ALL modified files <br>
 <i>git update-index --assume-unchanged dir-im-removing/</i><br>
-
+<br>
 Revert back to a clean working directory. This command saves local modifications away and reversts the working direcrory to match the HEAD commit. <br>
 <i>git stash</i><br>
+<br>
+Reset specific unwanted files from a local commit<br>
+<i>git reset HEAD path/to/unwanted_file</i><br>
 
 <br>
 <h2>Remove files </h2>
@@ -89,7 +92,7 @@ Then clean out everything untracked. If you want to keep files that are not trac
 
 <h4>Revert a local commit</h4>
 The last commit will be removed from git history. with 'HEAD~2' it will revert back 2 commits earler. <br>
-<i>git reset --soft HEAD~1</i>
+<i>git reset --soft HEAD~1</i><br>
 
 <h4>Temporarily switch to a different commit </h4>
 Check your commit history with the following command<br>
