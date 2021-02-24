@@ -88,7 +88,7 @@ Then clean out everything untracked. If you want to keep files that are not trac
 <i>git log</i>
 
 <h4>Temporarily switch to a different commit </h4>
-<h5>Check your commit history with the following command</h5>
+Check your commit history with the following command<br>
 <i> git log --all --graph --decorate --oneline </i><br>
 <br>
 Temporarly Checkout into an old commit <br>
