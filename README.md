@@ -1,3 +1,8 @@
+<h2>Git terms</h2>
+<h4>Git Head</h4>
+- The HEAD points out the last commit in the current checkout branch. It's like a pointer to any reference. The HEAD can be understood as the "current branch". When you which branch with 'checkout' the HEAD is transfered to the new branch. <br>
+
+<br>
 <h2>Branches</h2>
 Switch to another branch <br>
 <i>git checkout "feature_branch"</i> <br>
@@ -9,35 +14,31 @@ View all available branches <br>
 <i>git branch -a</i><br>
 
 <br>
-<h2>Merge Branches</h2>
+<h3>Merge Branches</h3>
 When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
 <i>git merge 'feature-branch'</i><br>
 
 <br>
-<h2>Delete github branch</h2>
+<h3>Delete branch</h3>
 Delete branch locally <br>
 <i>git branch -d localBranchName</i><br>
-
 <br>
 Delete branch remotely <br>
 <i>git push origin --delete remoteBranchName</i><br>
 
 <br>
-<h2>Rename github branch</h2>
+<h3>Rename github branch</h3>
 1. Rename your local branch. <br>
 If you are on the branch you want to rename: <br>
 <i>git branch -m new-name </i><br>
-
 If you are on a different branch: <br>
 <i>git branch -m old-name new-name</i><br>
-
 2. Delete the old-name remote branch and push the new-name local branch. <br>
 <i>git push origin :old-name new-name</i><br>
-
 3. Reset the upstream branch for the new-name local branch. <br>
-
 Switch to the branch and then:<br>
 <i>git push origin -u new-name </i><br>
+
 
 <br>
 <h2>File changes </h2>
@@ -75,26 +76,28 @@ Remove file from git <br>
 Remove file from git wituout removing file from git project <br>
 <i>git rm --cached file1.txt</i><br><br>
 
-<br>
-<h2>Revert back to last commit</h2>
-First reset the changes <br>
-<i>git reset HEAD --hard</i><br>
-
-Then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
-<i>git clean -fd</i><br>
-
 
 
 <br>
 <h2>Commit Commands</h2>
-<h4>See commit history</h4>
+<h3>Git Hard Rest to Commit/HEAD</h3>
+When resetting files on Git, you essentially have two options: You can either hard reset files or soft reset files. Using "-hard" you will be left with untracked files of your working directory.<br>
+Following takes you back to HEAD <br>
+<i>git reset --hard HEAD</i><br>
+Following takes you back two commits before HEAD<br>
+<i>git reset --hard HEAD~2</i><br>
+Then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
+<i>git clean -fd</i><br>
+
+<h3>See commit history</h3>
 <i>git log</i>
 
-<h4>Revert a local commit</h4>
+<h4>Git Soft Reset to Commit/HEAD (Revert local commit)</h4>
+Contrary to the hard reset, the soft reset won't alter the working directory and the index. <br><br>
 The last commit will be removed from git history. with 'HEAD~2' it will revert back 2 commits earler. <br>
 <i>git reset --soft HEAD~1</i><br>
 
-<h4>Temporarily switch to a different commit </h4>
+<h3>Temporarily switch to a different commit </h3>
 Check your commit history with the following command<br>
 <i> git log --all --graph --decorate --oneline </i><br>
 <br>
@@ -109,8 +112,9 @@ Temporarly Checkout into an old commit <br>
 <h4>1. Reset HEAD by going one step back</h4>
 <p><b>VERY Dangerous if you are working in a team.</b></p>
 <p>This command will revert EVERYTHING back to from HEAD (current commit) to the second latest commit in the history.</p><br>
-<p>git reset --soft HEAD^</p>
+<p>git reset --soft HEAD~1</p>
 <p>git push --force</p>
+
 
 <br>
 <h2>Origin info</h2>
