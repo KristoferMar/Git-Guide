@@ -89,13 +89,13 @@ Following takes you back two commits before HEAD<br>
 Then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
 <i>git clean -fd</i><br>
 
-<h3>See commit history</h3>
-<i>git log</i>
-
-<h4>Git Soft Reset to Commit/HEAD (Revert local commit)</h4>
+<h3>Git Soft Reset to Commit/HEAD (Revert local commit)</h3>
 Contrary to the hard reset, the soft reset won't alter the working directory and the index. <br><br>
 The last commit will be removed from git history. with 'HEAD~2' it will revert back 2 commits earler. <br>
 <i>git reset --soft HEAD~1</i><br>
+
+<h3>See commit history</h3>
+<i>git log</i>
 
 <h3>Temporarily switch to a different commit </h3>
 Check your commit history with the following command<br>
