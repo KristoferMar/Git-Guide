@@ -53,7 +53,7 @@ See which untracked files will be deleted <br>
 <i>git clean -n</i> <br>
 <i>git clean -n 'filename'</i><br>
 <br>
-<h3>Delete all untracked file<h3><br>
+<h3>Delete all untracked file</h3>
 See what will be deleted <br>
 <i>git clean -n</i><br><br>
 Clean untracked files <br>
