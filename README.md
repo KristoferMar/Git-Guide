@@ -35,9 +35,11 @@ If you are on a different branch: <br>
 <i>git push origin :old-name new-name</i><br>
 
 3. Reset the upstream branch for the new-name local branch. <br>
-
+ 
 Switch to the branch and then:<br>
 <i>git push origin -u new-name </i><br>
+
+
 
 <br>
 <h2>File changes </h2>
@@ -51,10 +53,14 @@ See which untracked files will be deleted <br>
 <i>git clean -n</i> <br>
 <i>git clean -n 'filename'</i><br>
 <br>
-Delete all untracked file<br>
+<h3>Delete all untracked file<h3><br>
+See what will be deleted <br>
+<i>git clean -n</i><br><br>
+Clean untracked files <br>
 <i>git clean -f</i> <br>
 <i>git clean -f 'filename'</i><br>
 <br>
+
 Ignore modified files <br>
 <i>git update-index --assume-unchanged 'filename'</i><br>
 <br>
@@ -134,3 +140,6 @@ Guide<br>
 <br>
 <h4>Open repository in browser from terminal</h4>
 <i>git remote -v | awk '/origin.*push/ {print $2}' | xargs open</i>
+
+
+git log --graph --decorate --oneline
