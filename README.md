@@ -3,8 +3,7 @@
 - The HEAD points out the last commit in the current checkout branch. It's like a pointer to any reference. The HEAD can be understood as the "current branch". When you which branch with 'checkout' the HEAD is transfered to the new branch. <br>
 
 <h2>Git status</h2>
-In all situations it's important to be aware of your changes and input. To check the status of your current branch you can run the following. <br>
-
+In all situations it's important to be aware of your changes and input. To check the status of your current branch you can run the following. <br><br>
 <pre>git status</pre>
 
 
