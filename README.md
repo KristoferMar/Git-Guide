@@ -86,8 +86,8 @@ Remove file from git wituout removing file from git project <br>
 <i>git rm --cached file1.txt</i><br><br>
 
 <h2>Commands for Uncommited commits</h2>
-Can be used to discard local changes in a file, thereby restoring its last committed state. <br>
-<pre>get restore <i>filename</i> </pre>
+Can be used to discard local changes in a file, thereby restoring its last committed state. <br><br>
+<pre>git restore <i>filename</i> </pre>
 
 <br>
 <h2>Commit Commands</h2>
