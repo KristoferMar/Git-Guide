@@ -1,6 +1,12 @@
-<h2>Git terms</h2>
+<h1>Git terms and guidelines</h1>
 <h4>Git Head</h4>
 - The HEAD points out the last commit in the current checkout branch. It's like a pointer to any reference. The HEAD can be understood as the "current branch". When you which branch with 'checkout' the HEAD is transfered to the new branch. <br>
+
+<h2>Git status</h2>
+In all situations it's important to be aware of your changes and input. To check the status of your current branch you can run the following. <br>
+
+<pre>git status</pre>
+
 
 <br>
 <h2>Branches</h2>
@@ -28,14 +34,14 @@ Delete branch remotely <br>
 
 <br>
 <h3>Rename github branch</h3>
-1. Rename your local branch. <br>
+1. Rename your local branch. <br><br>
 If you are on the branch you want to rename: <br>
 <i>git branch -m new-name </i><br>
 If you are on a different branch: <br>
 <i>git branch -m old-name new-name</i><br>
-2. Delete the old-name remote branch and push the new-name local branch. <br>
+2. Delete the old-name remote branch and push the new-name local branch. <br><br>
 <i>git push origin :old-name new-name</i><br>
-3. Reset the upstream branch for the new-name local branch. <br>
+3. Reset the upstream branch for the new-name local branch. <br><br>
  
 Switch to the branch and then:<br>
 <i>git push origin -u new-name </i><br>
