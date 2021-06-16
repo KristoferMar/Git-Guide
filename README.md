@@ -41,7 +41,6 @@ If you are on a different branch: <br>
 2. Delete the old-name remote branch and push the new-name local branch. <br><br>
 <i>git push origin :old-name new-name</i><br>
 3. Reset the upstream branch for the new-name local branch. <br><br>
- 
 Switch to the branch and then:<br>
 <i>git push origin -u new-name </i><br>
 
@@ -87,7 +86,7 @@ Remove file from git wituout removing file from git project <br>
 <i>git rm --cached file1.txt</i><br><br>
 
 <h2>Commands for Uncommited commits</h2>
-Can be used to discard local changes in a file, thereby restoring its last committed state. 
+Can be used to discard local changes in a file, thereby restoring its last committed state. <br>
 <pre>get restore <i>filename</i> </pre>
 
 <br>
