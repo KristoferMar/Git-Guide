@@ -136,15 +136,22 @@ If not on a network<br>
 <i>git config --get remote.origin.url</i> <br>
 
 
-<br>
-<h2>Tips and Tricks</h2>
+<h2>The "makefile"</h2>
+The makefile is a tool to add, commit and push very fast.
 
-<h4>Add, commit & push all in one</h4>
 Develop faster by creating a makefile in the root of repo <br>
 You can add the makefile to .gitignore for personal usage<br>
+
+Makefule is run like this:
+<pre>make git m="your message"</pre>
+
 <br>
 Guide<br>
 <a href="https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48" target="_blank">https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48</a><br>
+
+
+<br>
+<h2>Tips and Tricks</h2>
 
 <br>
 <h4>Open repository in browser from terminal</h4>
