@@ -144,7 +144,7 @@ You can add the makefile to .gitignore for personal usage<br>
 
 It looks like the following:<br>
 https://github.com/KristoferMar/Git-Guide/blob/master/makefile
-<br>
+<br><br>
 Makefule is run like this:
 <pre>make git m="your message"</pre>
 
