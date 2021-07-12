@@ -142,6 +142,9 @@ The makefile is a tool to add, commit and push very fast.
 Develop faster by creating a makefile in the root of repo <br>
 You can add the makefile to .gitignore for personal usage<br>
 
+It looks like the following:<br>
+https://github.com/KristoferMar/Git-Guide/blob/master/makefile
+<br>
 Makefule is run like this:
 <pre>make git m="your message"</pre>
 
