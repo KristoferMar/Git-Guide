@@ -126,6 +126,17 @@ Temporarly Checkout into an old commit <br>
 <p>git reset --soft HEAD~1</p>
 <p>git push --force</p>
 
+<br>
+<h1>Double branching</h1>
+It's possible to work on two branches simultaneously using the worktree command<br>
+<br>
+Get list of all worktrees:<br>
+<pre>git worktree list</pre>
+
+Create new worktree with new name and specifyed branch
+<pre>git worktree add ../<i>YourWorktreeName</i> <i>YourBranchName</i></pre>
+
+
 
 <br>
 <h2>Origin info</h2>
