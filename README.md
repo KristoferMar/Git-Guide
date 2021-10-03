@@ -23,7 +23,7 @@ View all available branches <br>
 When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
 <i>git merge 'feature-branch'</i><br>
 
-<br>
+<br><br>
 <h3>Delete branch</h3>
 Delete branch locally <br>
 <i>git branch -d localBranchName</i><br>
@@ -31,7 +31,16 @@ Delete branch locally <br>
 Delete branch remotely <br>
 <i>git push origin --delete remoteBranchName</i><br>
 
-<br>
+<br><br>
+<h3>Pull repositoriy</h3>
+Pull down branch <br><br>
+<pre> git pull</pre>
+<p>Pull down branch and rebase all code to latest commit</p>
+<pre> git pull --rebase</pre>
+
+
+
+<br><br>
 <h3>Rename github branch</h3>
 1. Rename your local branch. <br><br>
 If you are on the branch you want to rename: <br>
@@ -43,6 +52,7 @@ If you are on a different branch: <br>
 3. Reset the upstream branch for the new-name local branch. <br><br>
 Switch to the branch and then:<br>
 <i>git push origin -u new-name </i><br>
+
 
 
 <br>
