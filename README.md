@@ -21,7 +21,7 @@ View all available branches <br>
 <br>
 <h3>Merge Branches</h3>
 When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
-<i>git merge 'feature-branch'</i><br>
+<pre>git merge 'feature-branch'<br></pre>
 
 <br><br>
 <h3>Delete branch</h3>
