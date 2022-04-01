@@ -19,6 +19,10 @@ View all available branches <br>
 <i>git branch -a</i><br>
 
 <br>
+Find first commit of a given branch
+<pre>git log master..<i>your_branch<i> --oneline | tail -1</pre>
+
+<br>
 <h3>Merge Branches</h3>
 When executed you will take all changes within the target branch and put into your current branch which you are in right now <br>
 <pre>git merge 'feature-branch'<br></pre>
