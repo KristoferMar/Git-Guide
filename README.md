@@ -42,6 +42,13 @@ Pull down branch <br><br>
 <p>Pull down branch and rebase all code to latest commit</p>
 <pre> git pull --rebase</pre>
 
+#### Configure pull
+You can configure your pull strategy the following way
+<pre>
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+</pre>
 
 
 <br><br>
