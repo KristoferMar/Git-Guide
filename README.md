@@ -152,9 +152,10 @@ Temporarly Checkout into an old commit <br>
 <p>git reset --soft HEAD~1</p>
 <p>git push --force</p>
 
-<br>
-<h1>Double branching</h1>
-It's possible to work on two branches simultaneously using the worktree command<br>
+
+# Worktree - "Multi branching"
+It's possible to work on two or more branches simultaneously using the worktree command<br>
+
 <br>
 Get list of all worktrees:<br>
 <pre>git worktree list</pre>
@@ -162,6 +163,20 @@ Get list of all worktrees:<br>
 Create new worktree with new name and specifyed branch
 <pre>git worktree add ../<i>YourWorktreeName</i> <i>YourBranchName</i></pre>
 
+Delete a worktree
+<pre>
+git worktree remove --force 'path'
+</pre>
+
+
+## Cherry picking 
+It's possible to "cherry pick" files from one repo into another in the following way.
+Imagine you are locaed in repo called "main" and you want a file from the the repo called "release"
+<pre>
+git checkout release path/to/file.sql
+git commit -m "commiting cherry-picked file"
+git push
+</pre>
 
 
 <br>
