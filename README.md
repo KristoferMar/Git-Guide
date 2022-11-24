@@ -116,15 +116,25 @@ Can be used to discard local changes in a file, thereby restoring its last commi
 <pre>git restore <i>filename</i> </pre>
 
 <br>
-<h2>Commit Commands</h2>
-<h3>Git Hard Rest to Commit/HEAD</h3>
+
+## Commit Commands
+### Git Hard Rest to Commit/HEAD
 When resetting files on Git, you essentially have two options: You can either hard reset files or soft reset files. Using "-hard" you will be left with untracked files of your working directory.<br>
 Following takes you back to HEAD <br>
-<i>git reset --hard HEAD</i><br>
+<pre>
+git reset --hard 48a08ebe
+</pre>
 Following takes you back two commits before HEAD<br>
-<i>git reset --hard HEAD~2</i><br>
+<pre>
+git reset --hard HEAD~2
+</pre>
+
 Then clean out everything untracked. If you want to keep files that are not tracked due to .gitignore, be careful with this command. <br>
-<i>git clean -fd</i><br>
+<pre>
+git clean -fd
+</pre>
+
+<br>
 
 <h3>Git Soft Reset to Commit/HEAD (Revert local commit)</h3>
 Contrary to the hard reset, the soft reset won't alter the working directory and the index. <br><br>
