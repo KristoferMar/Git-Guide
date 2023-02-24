@@ -1,26 +1,28 @@
 <h1>Git terms and guidelines</h1>
 <h4>Git Head</h4>
-- The HEAD points out the last commit in the current checkout branch. It's like a pointer to any reference. The HEAD can be understood as the "current branch". When you which branch with 'checkout' the HEAD is transfered to the new branch. <br>
+- The HEAD points out the last commit in the current checkout branch. It's like a pointer to any reference. The HEAD can be understood as the "current branch". When you which branch with 'checkout' the HEAD is transfered to the new branch.
 
-<h2>Git status</h2>
+<br>
+
+## Git status 
 In all situations it's important to be aware of your changes and input. To check the status of your current branch you can run the following. <br><br>
 <pre>git status</pre>
 
-
 <br>
-<h2>Branches</h2>
+
+## Branches
 Switch to another branch <br>
-<i>git checkout "feature_branch"</i> <br>
+<pre>git checkout "feature_branch"</pre>
 <br>
 Creates and Swiches to new branch <br>
-<i>git checkout -b 'new_branch_name'</i> <br>
+<pre>git checkout -b 'new_branch_name'</pre>
 <br>
-View all available branches <br>
-<i>git branch -a</i><br>
+View all available branches
+<pre>git branch -a</pre>
 
 <br>
 Find first commit of a given branch
-<pre>git log master..<i>your_branch<i> --oneline | tail -1</pre>
+<pre>git log master..<i>your_branch</i> --oneline | tail -1</pre>
 
 <br>
 <h3>Merge Branches</h3>
@@ -28,12 +30,17 @@ When executed you will take all changes within the target branch and put into yo
 <pre>git merge 'feature-branch'<br></pre>
 
 <br><br>
-<h3>Delete branch</h3>
-Delete branch locally <br>
-<i>git branch -d localBranchName</i><br>
+### Delete branch
+
+Delete branch locally
+<pre>
+git branch -d localBranchName
+</pre>
 <br>
-Delete branch remotely <br>
-<i>git push origin --delete remoteBranchName</i><br>
+Delete branch remotely
+<pre>
+git push origin --delete remoteBranchName
+</pre>
 
 <br><br>
 <h3>Pull repositoriy</h3>
