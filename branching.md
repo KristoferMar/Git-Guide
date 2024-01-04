@@ -24,29 +24,25 @@ git checkout <branch name>
 ```
 
 # Rename branch
-## 1. Rename local branch 
+### Rename local branch 
+Given you are located in the branch 
 ```
 git branch -m <new_name>
 ```
+Then push the renamed branch
+```
+git push origin new-branch-name
+```
 
-## 2. Delete old name branch 
-```
-git push origin :<old_name> <new_name>
-```
-
-## 3. Reset upstream branch for new name local branch
-## Switch to the new branch and execute:
-```
-git push origin -u <new_name>
-```
+<br>
 
 # Delete branch
-## localy 
+### localy 
 ```
 git branch -d <branch_name>
 ```
 
-## remotely
+### remotely
 ```
 git push origin --delete <remote_branch_name>
 ```
