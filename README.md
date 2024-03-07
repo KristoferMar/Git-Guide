@@ -73,18 +73,6 @@ Switch to the branch and then:<br>
 
 
 
-<br>
-<h2>File changes </h2>
-See changes in all files <br>
-<i>git diff</i><br>
-<br>
-See changes in specific files <br>
-<i>git diff 'file name'</i><br>
-<br>
-
-See changes between two commits
-<pre>git diff 0da94be  59ff30c > my.patch </pre>
-<br>
 
 See which untracked files will be deleted <br>
 <i>git clean -n</i> <br>
